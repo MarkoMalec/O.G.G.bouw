@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
         <script src="https://kit.fontawesome.com/64ff4cf3fa.js" crossorigin="anonymous"></script>
-        <title>O.G.G Bouw Home</title>
+        <title>O.G.G Bouw</title>
     </head>
     <body>
         <!-- Seperate navigation file -->
