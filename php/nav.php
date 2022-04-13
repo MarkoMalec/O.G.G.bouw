@@ -1,6 +1,6 @@
 <div class="nav-container">
     <div id="logo">
-        <img id="logo-image" src="img/logo-white.svg" alt="logo" srcset="">
+        <a href="index.php"><img id="logo-image" src="img/logo-white.svg" alt="logo" srcset=""></a>
     </div>
         <div class="nav-toggle" id="navToggle">
             <div id="nav-icon">
@@ -13,7 +13,10 @@
     <nav>
         <ul>
             <li>
-                <a class="nav-links" href="index.php#About">Ongeveer</a>
+                <a class="nav-links" href="index.php">Home</a>
+            </li>
+            <li>
+                <a class="nav-links" href="index.php#About">Over ons</a>
             </li>
             <li>
                 <a class="nav-links" href="index.php#projects">Projecten</a>
