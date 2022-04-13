@@ -46,7 +46,12 @@
             <p>oggbouw.nl &copy; 2022</p>
         </div>
         <div class="author">
-            <span>Marko Malec</span>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "Creator: Marko.", "See my work.", "Click me!"]'>
+            <span class="wrap"></span>
+        </a>
+            <!-- <h3>Marko Malec</h3> -->
         </div>
     </footer>
 </footer>
+
+<script src="js/typewrite.js"></script>
