@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Huis renovaties">
+        <meta name="keywords" content="Bouw, Renovaties, Projecten, huis renovaties">
+        <meta name="author" content="Marko Malec">
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/form.css">
         <script src="https://kit.fontawesome.com/64ff4cf3fa.js" crossorigin="anonymous"></script>
         <title>O.G.G Bouw</title>
     </head>
@@ -29,19 +33,19 @@
                     <div class="split">
                         <div class="reveal2">
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque doloremque quasi qui
-                                numquam cumque. Veniam eius veritatis fuga voluptates perspiciatis optio fugiat
-                                dignissimos vitae. Doloremque placeat, laudantium mollitia libero quo magni illum
-                                incidunt, voluptate fuga perferendis quas quisquam. Aspernatur voluptate sapiente nemo
-                                dolor culpa officia, impedit dolorum ea et fuga, natus mollitia, sit explicabo
-                                architecto! Saepe dolorum, fugit commodi quod delectus eaque sit <strong>Nederland</strong> aliquam aut tempore
-                                molestiae ratione pariatur ea nulla accusamus ut optio qui velit modi necessitatibus
-                                maxime soluta ad eius, reprehenderit vitae. Eum quidem perspiciatis voluptate eligendi
-                                aspernatur, ab nostrum quod alias! Neque similique corporis sunt voluptate facere!
+                                Wij zijn een jong team dat elke dag hard werkt om het meeste uit onze talenten te halen en ze op uw verzoeken te gebruiken.
+                                Ik ben dit bedrijf alleen begonnen, ik wilde dat het een naam naar mij zou krijgen. Simpel, zonder een bijzonder verhaal erachter.
+                                Dus de naam is Obviously Goran Grnic.
+                                Omdat de vraag onverwacht hoog begon te worden, moest ik een team vormen. Nu worden we groter
+                                en groter als mensen onze inspanningen erkennen. Wij werken door heel <strong>Nederland</strong> (zie kaart) en dat
+                                is slechts een begin. We willen en we zullen uitbreiden omdat we buitengewoon streng zijn in ons werk
+                                en wat we doen. Over dat gesproken:
                             </p>
                             <h1>Wat we doen</h1>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum veritatis non quam quae dolorem quisquam eveniet impedit doloremque beatae molestiae cupiditate repellat suscipit at accusamus possimus rem voluptatem sed, sunt expedita earum, laborum voluptate, obcaecati delectus accusantium? Numquam nemo obcaecati alias. Sint vel sunt ad consequatur quas sed? Error, vitae!
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum veritatis non quam quae dolorem quisquam eveniet impedit doloremque 
+                                beatae molestiae cupiditate repellat suscipit at accusamus possimus rem voluptatem sed, sunt expedita earum, laborum voluptate, 
+                                obcaecati delectus accusantium? Numquam nemo obcaecati alias. Sint vel sunt ad consequatur quas sed? Error, vitae!
                             </p>
                         </div>
                         <div class="nl-map reveal3">
@@ -57,7 +61,7 @@
 
             <!-- Parallax photo -->
                 <div class="fixed-img">
-                     <div class="card">
+                     <!-- <div class="card">
                         <div class="card-image"></div>
                         <div class="card-svg">
                             <img src="img/drillimg.svg" alt="" srcset="">
@@ -68,7 +72,7 @@
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis molestias officiis voluptatum omnis aliquid nobis cupiditate quibusdam.</p>
                         </div>
                         <div class="card-other"></div>
-                    </div>
+                    </div> -->
                     
                 </div>
 
@@ -82,12 +86,12 @@
                     </div>
                     <h2>Verschillende behoeften vragen om een ​​andere aanpak.</h2>
                     <div class="projects-gallery">
-                        <div class="projects-grid-item-1 reveal"><img data-tilt data-tilt-glare data-tilt-max-glare="0.8" src="img/bouw/photo_02.jpg" alt=""><p>Ovo je slika 1</p></div>
-                        <div class="projects-grid-item-2 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Ovo je slika 2</p></div>
-                        <div class="projects-grid-item-3 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Ovo je slika 3</p></div>
-                        <div class="projects-grid-item-4 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Ovo je slika 4</p></div>
-                        <div class="projects-grid-item-5 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Ovo je slika 5</p></div>
-                        <div class="projects-grid-item-6 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Ovo je slika 6</p></div>
+                        <div class="projects-grid-item-1 reveal"><img data-tilt data-tilt-glare data-tilt-max-glare="0.8" src="img/bouw/photo_02.jpg" alt=""><p>Project 1</p></div>
+                        <div class="projects-grid-item-2 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Project 2</p></div>
+                        <div class="projects-grid-item-3 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Project 3</p></div>
+                        <div class="projects-grid-item-4 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Project 4</p></div>
+                        <div class="projects-grid-item-5 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Project 5</p></div>
+                        <div class="projects-grid-item-6 reveal"><img data-tilt src="img/bouw/photo_02.jpg" alt=""><p>Project 6</p></div>
                        
                     </div>
                 </div>
@@ -101,6 +105,7 @@
         <script src="js/library/jquery-3.6.0.js"></script>
         <script src="js/library/vanilla-tilt.js"></script>
         <script src="js/js.min.js"></script>
+        <script src="js/form.js"></script>
         <!-- <script src="js/smoothScroll.js"></script> -->
         <!-- <script src="js/domready.js"></script>
         <script src="js/nav-trns-toggle.js"></script>

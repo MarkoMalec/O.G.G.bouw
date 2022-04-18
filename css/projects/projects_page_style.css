@@ -4,23 +4,66 @@
 }
 
 .pheader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
     background-color: #3D4752;
-    background-image: url(../../img/projects-header.png);
+    background-image: url(../../img/projecten.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 60vh;
+    box-shadow: 0px 110px 100px rgba(0, 0, 0, 0.8) inset;
+    height: 40vh;
 }
 
+.pheader-title {
+    font-family: var(--ff-blueprint);
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    font-size: 2.5rem;
+    /* margin-left: 15%; */
+    text-transform: uppercase;
+}
 
+.pheader-section {
+    position: relative;
+    width: 100%;
+    background-color: #282828;
+}
+
+.pheader-section-hero {
+    color: var(--clr-accent-100);
+    width: 45%;
+    padding: 3em 0;
+    margin-left: 15%;
+}
+
+.pheader-section-card {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    background-color: var(--clr-primary-900);
+    color: var(--clr-accent-100);
+    width: min(90%, 22rem);
+}
+
+.pheader-section-card p {
+    font-size: 1.1rem;
+    margin: 1em 3em 4em 3em;
+}
+
+.pheader-section-card h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2em;
+}
 
 .bg-dark {
-    background-color: #3D4752;
+    background-color: #282828;
 }
 
-h1 {
-    font-size: 5em;
-}
+
 
 .splide__slide img {
     width: 100%;
@@ -30,12 +73,24 @@ h1 {
     object-fit: cover;
 }
 
-#testic-track {
-    /* box-shadow: 5px 100px 5px #000 inset; */
-}
-
-
 @media (max-width: 55rem) {
+    .pheader {
+        padding-left: 0;
+        background-size: cover;
+        height: 55vh;
+    }
+    .pheader-title {
+        margin-inline: auto;
+        font-size: 1.5rem;
+    }
+    .pheader-section-card {
+        display: none;
+    }
+    .pheader-section-hero {
+        margin: 0 auto;
+        width: 80%;
+    }
+
     .splide__slide img {
         padding: 0 .3rem;
         height: 20rem;
