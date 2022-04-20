@@ -8,11 +8,28 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/projects/projects_page_style.css">
     <link rel="stylesheet" href="js/library/splide/dist/css/splide.min.css">
-    <title>O.G.G. Bouw Projects</title>
+    <link rel="stylesheet" href="css/form.css">
+    <title>O.G.G. Bouw Projecten</title>
 </head>
 <body>
     <?php include("php/nav.php") ?>
-    <div class="pheader"></div>
+    <div class="pheader">
+        <div class="pheader-title">
+            <h1>Projecten</h1>
+        </div>
+    </div>
+    <div class="pheader-section">
+        <div class="pheader-section-hero">
+            <p>
+            Dit is ons werk, dat gedreven is door passie en liefde voor dit werk. We hebben misschien nog niet een groot aantal projecten, maar wees gerust, we werken aan een grote verzameling projecten van goede kwaliteit waar klanten blij mee zullen zijn. Het is een geweldige reis en een voorrecht om voor jou te mogen werken!
+            </p>
+        </div>
+        <div class="pheader-section-card">
+            <h1>Zoals wat je ziet?</h1>
+            <p>Neem contact met ons op via onderstaand formulier, of bel ons gewoon op onze telefoon van 09:00 tot 17:00 elke dag van maandag tot en met vrijdag!</p>
+            <p>Phone: +385 99 3211 472</p>
+        </div>
+    </div>
         <main>
             <section class="bg-light">
                 <div class="container">
@@ -54,6 +71,7 @@
     <script type="text/javascript" src="js/library/vanilla-tilt.js"></script>
     <script src="js/library/splide/dist/js/splide.min.js"></script>
     <script src="js/js.min.js"></script>
+    <script src="js/projects-card.js"></script>
     <script src="js/carousel.js"></script>
     </script>
 </body>

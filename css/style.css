@@ -79,6 +79,22 @@ section h1 {
 
 /* ************************************************************************** */
 
+.top-btn {
+    position: fixed;
+    height: fit-content;
+    width: 2.8em;
+    bottom: 0;
+    right: 20px;
+    margin: 1.1rem auto;
+    padding: .5rem;
+    border-radius: 30px;
+    background: var(--clr-accent-100);
+    text-align: center;
+    color: var(--clr-primary-900);
+    font-size: 1.2rem;
+    z-index: 50;
+}
+
 .main-header {
     z-index: 1;
     display: grid;
@@ -159,7 +175,7 @@ section h1 {
 }
 .hero-text a {
     margin-top: 2rem;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
     font-size: 1.2rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -171,47 +187,6 @@ section h1 {
     transition: .2s;
 }
 
-
-/* LAZY LOADING ANIMATIONS */
-
-.reveal {
-    transform: translateY(200px);
-    opacity: 0;
-    transition: 0.8s all ease;
-}
-
-.reveal.active {
-    transform: translateY(0);
-    opacity: 1;
-    z-index: 1;
-}
-
-.reveal2 {
-    transform: translateX(-4em);
-    opacity: 0;
-    transition: 1.1s all ease;
-}
-
-.reveal2.active {
-    transform: translateX(0);
-    opacity: 1;
-    z-index: 1;
-}
-
-.reveal3 {
-    transform: translateY(10em);
-    opacity: 0;
-    transition: 1.1s all ease;
-}
-
-.reveal3.active {
-    transform: translateY(0);
-    opacity: 1;
-    z-index: 1;
-}
-
-/* ********************* */
-
 .nav-container {
     display: flex;
     justify-content: space-around;
@@ -222,7 +197,7 @@ section h1 {
     top: 0;
     width: 100%;
     z-index: 2;
-    transition: 0.5s;
+    transition: .5s;
 }
 
 .nav-container.sticky {
@@ -289,13 +264,15 @@ nav ul li {
 .nav-toggle {
     display: none;
     position: absolute;
-    top: 0.9rem;
+    top: .9rem;
     right: 1.5rem;
-    color: #000;
+    color: #0006;
 }
 
 .menu-open {
-    height: 45vh;
+    height: 100vh;
+    touch-action: none;
+    -ms-touch-action: none;
 }
 
 #nav-icon {
@@ -389,13 +366,13 @@ nav ul li {
     }
     
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-11px);
     }
 }
 
 @keyframes textpaint {
     from {
-        height: 38px;
+        height: 39px;
     }
 
     to {
@@ -416,11 +393,51 @@ nav ul li {
 
 /* **************** END ANIMATIONS ***************** */
 
+.nl-map {
+    min-width: 450px;
+    align-self: center;
+}
+
+.pinpoint-location {
+    position: relative;
+    color: #45a049;
+    cursor: pointer;
+    width: fit-content;
+    top: 340px;
+    left: 290px;
+    text-shadow: 0px 2px 3px #000;
+    transition: 0.3s ease;
+}
+
+.pinpoint-location .tooltip {
+    visibility: hidden;
+    position: relative;
+    cursor: default;
+    display: inline-block;
+    background-color: var(--clr-primary-900);
+    color: #fff;
+    text-align: center;
+    line-height: 2.2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 1em;
+    padding: 10px 5px;
+}
+
+.pinpoint-location:hover {
+    color: green;
+    transform: translateY(5px);
+}
+
+.pinpoint-location:hover .tooltip {
+    visibility: visible;
+}
+
 .fixed-img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
     background-image: url("../img/photo01.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -530,7 +547,7 @@ nav ul li {
 .projects-gallery img {
     width: 100%;
     max-width: 500px;
-    padding: 3px;
+    padding: 1px;
     border-radius: 10px;
     background: rgb(190, 124, 63);
     background: linear-gradient(180deg, rgba(190, 124, 63, 1) 23%, rgba(255, 255, 255, 0.0) 100%);
@@ -559,41 +576,22 @@ footer {
     align-self: center;
 }
 
-/* Style inputs with type="text"; elements and textareas */
-input[type=text],
-[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 3px solid var(--clr-primary-900);
-    border-radius: 6px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: none;
+.contact-container h1 {
+    margin-bottom: 2em;
 }
 
-/* Form submit button */
-input[type=submit] {
-    background-color: var(--clr-primary-900);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
+.contact-container p {
+    margin-bottom: 5em;
+    font-size: 1.1rem;
 }
 
 .information {
     font-size: 1.25rem;
-    line-height: 5em;
+    line-height: 3em;
     color: var(--clr-accent-300);
     font-weight: 300;
     margin-top: 2em;
+    padding: 0 1em;
 }
 
 .information li::marker {
@@ -601,45 +599,11 @@ input[type=submit]:hover {
     font: var(--fa-font-solid);
     color: var(--clr-primary-900);
 }
-
-.nl-map {
-    min-width: 450px;
-    align-self: center;
-}
-
-.pinpoint-location {
-    position: relative;
-    color: #45a049;
-    cursor: pointer;
-    width: fit-content;
-    top: 340px;
-    left: 290px;
-    text-shadow: 0px 2px 3px #000;
-    transition: 0.3s ease;
-}
-
-.pinpoint-location .tooltip {
-    visibility: hidden;
-    position: relative;
-    cursor: default;
-    display: inline-block;
-    background-color: var(--clr-primary-900);
-    color: #fff;
+.carpenter-img {
     text-align: center;
-    line-height: 2.2rem;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-left: 1em;
-    padding: 10px 5px;
 }
-
-.pinpoint-location:hover {
-    color: green;
-    transform: translateY(5px);
-}
-
-.pinpoint-location:hover .tooltip {
-    visibility: visible;
+.carpenter-img img {
+    width: 300px;
 }
 
 .ftr-social {
@@ -767,12 +731,21 @@ input[type=submit]:hover {
 
 @media (max-width: 46.875rem) {   
     .main-header {
-        background-position: 75%;
+        background-image: url('../img/header-img-mobile.jpg');
+    }
+
+    .hero-text h1 {
+        font-size: 4rem;
     }
     
     .hero-text a {
+        color: var(--clr-primary-900);
+        background-color: #fff;
+        border: none;
+        padding: .8em 1.3em;
         margin-inline: auto;
     }
+
     .nav-container {
         display: block;
     }
@@ -850,11 +823,6 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 28.75rem) {
-    .hero-text h1 {
-        text-align: center;
-        font-size: 4rem;
-    }
-
     .ftr-legal {
         flex-wrap: wrap;
         height: fit-content;

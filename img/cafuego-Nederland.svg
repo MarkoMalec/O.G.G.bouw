@@ -38,6 +38,7 @@
       inkscape:pageopacity="0.0"
       inkscape:document-units="px"
   />
+  <text x="150" y="480">TEST</text>
   <g
       id="layer2"
       style="display:none"
@@ -677,7 +678,7 @@
       >
       <text
           id="text1566"
-          style="font-size:16px;font-family:Bitstream Vera Sans;fill:#000080;line-height:125%;font-style:oblique"
+          style="font-size:24px;font-family:Bitstream Vera Sans;fill:#fff;line-height:125%;font-style:oblique"
           sodipodi:linespacing="125%"
           y="536.36218"
           x="494"
@@ -688,7 +689,7 @@
             y="536.36218"
             x="494"
             sodipodi:role="line"
-          >Gelderland</tspan
+          >50 Euros</tspan
         >
       </text
       >
