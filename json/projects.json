@@ -1,0 +1,35 @@
+
+{
+    "projects": [
+        {
+        "id": 1,
+        "name": "Arnhem",
+        "image": "..img/bouw/project1.jpg"
+        },
+        {
+        "id": 2,
+        "Name": "Gorinchem",
+        "image": "..img/bouw/project2.jpg"
+        },
+        {
+        "id": 3,
+        "Name": "Gorinchem",
+        "image": "..img/bouw/project3.jpg"
+        },
+        {
+        "id": 4,
+        "Name": "Gorinchem",
+        "image": "..img/bouw/project4.jpg"
+        },
+        {
+        "id": 5,
+        "Name": "Gorinchem",
+        "image": "..img/bouw/photo_02.jpg"
+        },
+        {
+        "id": 6,
+        "Name": "Gorinchem",
+        "image": "..img/bouw/project1.jpg"
+        }
+    ]
+}
