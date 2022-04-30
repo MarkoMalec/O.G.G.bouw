@@ -77,6 +77,36 @@ section h1 {
     width: min(90%, 70.5rem);
 }
 
+.marquee {
+    width: 100vw;
+    height: 20vh;
+    /* background-color: #111; */
+    color: tomato;
+    overflow: hidden;
+}
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 10s linear infinite;
+}
+@keyframes scrolling {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(calc(-1*20vw*9));
+    }
+}
+.marquee-content li {
+    display: flex;
+    justify-content: center;
+    border: 3px solid teal;
+    width: 20vw;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
 /* ************************************************************************** */
 
 .top-btn {

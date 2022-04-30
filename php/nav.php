@@ -15,7 +15,7 @@
             <li>
                 <a class="nav-links" href="index.php">Home</a>
             </li>
-            <li>
+            <li id="toRemove">
                 <a class="nav-links" href="index.php#About">Over ons</a>
             </li>
             <li>

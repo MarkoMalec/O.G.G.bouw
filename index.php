@@ -4,8 +4,8 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="google-site-verification" content="hblOvQqVj1OdDmAZP-rqPmJFHEOkpQAjbda3eB5uIGk" />
-        <meta name="description" content="Huis renovaties">
-        <meta name="keywords" content="Bouw, Renovaties, Projecten, huis renovaties">
+        <meta name="description" content="Alle soorten huisrenovaties">
+        <meta name="keywords" content="bouw, renovaties, renovatie, projecten, huis, renovaties">
         <meta name="author" content="Marko Malec">
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
@@ -17,7 +17,7 @@
     <body>
         <a href="#top" class="top-btn" data-aos="fade-left" data-aos-anchor="#trigger" data-aos-anchor-placement="top-top" data-aos-easing="ease-in-out-back"><i class="fa-solid fa-chevron-up"></i></a>
         <!-- Seperate navigation file -->
-        <?php include("php/nav.php") ?>
+        <?php include("php/nav.php")?>
         <header id="top" class="main-header">
             <div class="hero-text">
                 <h1 class="heading-text">Bouw volgens uw regels.</h1>
@@ -64,6 +64,25 @@
 
             <!-- Parallax photo -->
                 <div class="fixed-img">
+                    <div class="marquee">
+                        <ul class="marquee-content">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            
+                        </ul>
+                    </div>
                      <!-- <div class="card">
                         <div class="card-image"></div>
                         <div class="card-svg">

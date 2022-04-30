@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Onze projecten">
+    <meta name="keywords" content="bouw, renovaties, renovatie, projecten, huis, renovaties">
+    <meta name="author" content="Marko Malec">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/64ff4cf3fa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -61,12 +64,20 @@
             </section>
             <section class="bg-light">
                 <div class="container">
+                    <div class="split">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia consequatur placeat fuga vero at nam, quam cumque quos, et non ipsam neque? Veritatis, dolorem nam unde veniam nihil excepturi esse commodi maxime eius, quia modi soluta ut quis sed sunt a non? Enim, perspiciatis rerum recusandae totam fugiat impedit vitae!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sed non excepturi magnam adipisci repellat nulla architecto vero odit repudiandae dolorem voluptatum soluta sit voluptatem obcaecati tempora reiciendis, beatae eaque corrupti perspiciatis? Hic, in dolor, laudantium rerum deserunt nemo veniam odio nobis quae quisquam pariatur voluptatibus blanditiis cum voluptates itaque. Dolore culpa, nam, at repellendus, quos libero maxime magnam rem nulla doloribus molestiae eos. Vitae, dolorum molestiae dolores illo quibusdam saepe odio voluptate ipsa unde, quis, nulla porro commodi? Quibusdam itaque illo eveniet nihil sed harum suscipit incidunt non provident quaerat ipsam, error fugiat! Itaque nemo voluptatum totam placeat aut.</p>
+                    </div>
                 </div>
             </section>
         
         </main>
     <?php include("php/footer.php") ?>
+    <!-- remove 'About us' button from navigation -->
+    <script>
+        const link = document.getElementById('toRemove');
+        link.remove();
+    </script>
     <script src="js/library/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="js/library/vanilla-tilt.js"></script>
     <script src="js/library/splide/dist/js/splide.min.js"></script>
