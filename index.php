@@ -51,12 +51,12 @@
                                 obcaecati delectus accusantium? Numquam nemo obcaecati alias. Sint vel sunt ad consequatur quas sed? Error, vitae!
                             </p>
                         </div>
-                        <div class="nl-map" data-aos="zoom-out" data-aos-offset="350">
-                            <div class="pinpoint-location">
+                        <div class="nl-map" >
+                            <div data-aos="fade-up" data-aos-duration="2000" class="pinpoint-location">
                                 <i class="fa-solid fa-location-dot fa-2x"></i>
                                 <div class="tooltip">Werken plaats<br /> Locatie: Nijmegen</div>
                             </div>
-                            <img src="img/cafuego-Nederland.svg" alt="Nederland kaart" />
+                            <img data-aos="zoom-in" data-aos-offset="350" src="img/cafuego-Nederland.svg" alt="Nederland kaart" />
                         </div>
                     </div>
                 </div>
@@ -64,25 +64,6 @@
 
             <!-- Parallax photo -->
                 <div class="fixed-img">
-                    <div class="marquee">
-                        <ul class="marquee-content">
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <li>5</li>
-                            <li>6</li>
-                            <li>7</li>
-                            <li>8</li>
-                            <li>9</li>
-
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            
-                        </ul>
-                    </div>
                      <!-- <div class="card">
                         <div class="card-image"></div>
                         <div class="card-svg">
@@ -106,7 +87,7 @@
                             <a class="btn-checkall" href="projects.php"><span>Bekijk alle</span><i class="fa-solid fa-chevron-right "></i></i></a>
                         </div>
                     </div>
-                    <h2>Verschillende behoeften vragen om een ​​andere aanpak.</h2>
+                    <h2>Verschillende behoeften vragen om een andere aanpak.</h2>
                     <div class="projects-gallery">
                         <div class="projects-grid-item-1" data-aos="fade-up" data-aos-delay="10"><img data-tilt src="img/bouw/project1.jpg" alt=""><p>Project 1</p></div>
                         <div class="projects-grid-item-2" data-aos="fade-up" data-aos-delay="300"><img data-tilt src="img/bouw/project2.jpg" alt=""><p>Project 2</p></div>

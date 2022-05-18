@@ -5,13 +5,21 @@
     <?php include("form.php") ?>
     </div>
     <div class="information">
-        <h2>Info:</h2>
-        <ul>
-            <li>Company Name: Obviously Goran Grnic Bouw</li>
-            <li>Mail: Goran@oggrenovaties.nl</li>
-            <li>Phone: 06 12345 234</li>
-            <li>Something: Something</li>
-        </ul>
+        <div class="contact-info">
+            
+            <div>
+                <img src="img/mail.svg" alt="Contact mail">
+                <p>Goran@oggrenovaties.nl</p>
+            </div>
+            <div>
+                <img src="img/phone2.svg" alt="Contact phone">
+                <p>+06 12345 234</p>
+            </div>
+            <div>
+                <img src="img/phone.svg" alt="">
+                <p>Test Test</p>
+            </div>
+        </div>
         <div class="carpenter-img">
             <img src="img/carpenter.png" alt="">
         </div>
@@ -34,7 +42,7 @@
             <p>oggrenovaties.nl &copy; 2022</p>
         </div>
         <div class="author">
-        <a href="" class="typewrite" data-period="2000" data-type='[ "Creator: Marko.", "See my work.", "Click me!"]'>
+        <a href="" class="typewrite" data-period="2000" data-type='["Created by Marko.", "See my work."]'>
             <span class="wrap"></span>
         </a>
             <!-- <h3>Marko Malec</h3> -->
